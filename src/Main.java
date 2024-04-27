@@ -29,8 +29,17 @@ public class Main {
         System.out.println("The second smallest number is: " + numbersforsecondtask[1]);
 // TASK NUMBER 3
         System.out.println("TASK 3 // My answer :");
-        double x = 7;
-        double y = 14;
+        System.out.println("The numbers I am taking are: " );
+        int x = 7;
+        int y = 14;
+        System.out.print("X is: " + x);
+        System.out.println("   Y is: " + y);
+        int solveda = x * x;
+        int solvedb = ((4 * y) / 5 - x) * ((4 * y) / 5 - x);
+
+        int resultsofAandB = solveda - solvedb;
+        System.out.println("My result of the math expression is:  " + resultsofAandB);
+
 
 
 
